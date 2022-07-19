@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:wght@400;500;700&family=Roboto&family=Roboto+Mono:ital@1&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: ;
+}
+.top-banner{
+  width: 1321px;
+  height: 646px;
+  margin: 0 auto;
+  background-color: black;
+}
+.top-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-deteil{
+  color: white;
+   width: 531px;
+  height: 424px;
+  margin-top: 60px;
+}
+.top-deteil h1{
+  font-size: 40px;
+   color: white;
+}
+.top-img img {
+  margin-top: 33px;
+  margin-left: 24px;
+  width: 581px;
+  height: 613px;
+  padding: 102px -1px 11px 0;
+}
+.link-button{
+  margin-top: 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #DD0000;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.fa-greater-than{
+  margin-left: 10px;
+}
+
