@@ -43,6 +43,9 @@ main{
   padding: 10px 40px;
   border-radius: 8px;
 }
+.link-button:hover{
+  background-color: navy;
+}
 .fa-greater-than{
    margin-left: 10px;
 }
@@ -242,7 +245,7 @@ hr{
  }  
 
  footer{
-  width: 340vw;
+  width: 350vw;
  }
  .footer-items{
   display: grid;
