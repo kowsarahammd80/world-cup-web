@@ -50,8 +50,8 @@ main{
 .blogs-container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin-left: 340px;
-  margin-top: 120px;
+   margin-left: 10px;
+  /* margin-top: 0px; */
 }
 .blog-items{
   box-shadow: 1px 1px 1px gray;
@@ -84,4 +84,80 @@ main{
 }
 .blog-info span{
   margin-left: 10px;
+}
+.side-button{
+    background-color: black;
+    width: 336px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* justify-content: center; */
+    border-radius: 10px;
+}
+
+
+.side-button p{
+  background-color: white;
+  width: 150px;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left:;
+  margin-top:;
+  padding: 5px 40px;
+  border-radius: 10px;
+  
+
+}
+
+.blog-button {
+  padding: 0;
+  margin-left: 0px;
+  border-radius: 8px;
+    margin-left: 30px;
+    background: red;
+    padding: 20px;
+    /* padding: 30px; */
+
+}
+.blog-button a{
+  margin-left: 75px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+.side-button p a{
+   text-decoration: none;
+   font-weight: 700;
+  margin-top: 20px;
+
+}
+.button-item{
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-right: 43px;
+
+}
+
+
+.extra-container {
+  display: flex;
+  margin-top: 110px;
+}
+
+/* footer style  */
+footer{
+  background-color: black;
+  padding-top: 100px;
+}
+
+hr{
+  border: 1px solid grey;
+  width: 85%;
+}
+.footer-container h1{
+  color: white;
+  font-size: 35px;
+  margin-left: 50% 
 }
