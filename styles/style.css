@@ -3,9 +3,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 main{
+  margin-top: 20px;
   width: 1321px;
   margin: 0 auto;
-  border: 1px solid orange;
 }
 .top-banner{
   width: 1321px;
@@ -149,15 +149,31 @@ main{
 /* footer style  */
 footer{
   background-color: black;
-  padding-top: 100px;
+  margin-top: 10%;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 hr{
-  border: 1px solid grey;
-  width: 85%;
+  border: 1.8px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
 }
 .footer-container h1{
   color: white;
   font-size: 35px;
-  margin-left: 50% 
+  margin-left: 48% 
+}
+.item{
+ margin: 30px;
+}
+.item span{
+  color: 
+  #B9B9B9;
+  font-weight: 500;
+  
+}
+.footer-items{
+  display: flex;
+  justify-content: center;
+  
 }
