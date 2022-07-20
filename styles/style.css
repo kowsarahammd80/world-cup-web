@@ -91,8 +91,6 @@ main{
     height: 350px;
     margin-top: 10px;
     margin-left: 10px;
-    /* justify-content: center; */
-    border-radius: 10px;
 }
 
 
@@ -107,24 +105,17 @@ main{
   border-radius: 10px;
 
 }
-
-.blog-button {
-  margin-left: 0px;
-  border-radius: 8px;
-    margin-left: 30px;
-    background: red;
-    padding: 20px;
-
-}
-.blog-button a{
-  margin-left: 75px;
-  text-decoration: none;
-  font-weight: 700;
+#blog-button a{
   color: white;
 }
+
+#blog-button {
+    background: #DD0000;
+}
+
 .side-button p a{
    text-decoration: none;
-   font-weight: 700;
+  font-weight: 700;
   margin-top: 20px;
 }
 
@@ -210,15 +201,29 @@ hr{
   color: #DD0000;
 }
   /* midea quairi for mobaile  */
-@media only screen and (max-width: 688px) {
-    .top-items{
-      display: block;
-      flex-direction: column;
-    }
-    .footer{
-      width: 100px;
-      display: block;
-    }
+@media only screen and (max-width: 688px){
+
+  .top-banner{
+    width: 100%;
+    height: 100%;
+  }
+  .top-items{
+    flex-direction: column;
+  }
+  .extra-container{
+    flex-direction: column;
+  }
+  .side-button{
+   background-color: black;
+   width: 100%;
+
+  }
+  .side-button p{
+    width: 300px;
+    margin-left: 35%;
+    margin-top: 20px;
+  }
+ 
 }
 
 @media screen and (min-width: 689px) and (max-width: 992px) {
