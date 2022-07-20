@@ -201,8 +201,9 @@ hr{
   color: #DD0000;
 }
   /* midea quairi for mobaile  */
-@media only screen and (max-width: 688px){
 
+
+@media only screen and (max-width: 688px) {
   .top-banner{
     width: 100%;
     height: 100%;
@@ -217,15 +218,11 @@ hr{
    background-color: black;
    width: 100%;
 
-  }
+  } 
   .side-button p{
     width: 300px;
     margin-left: 35%;
     margin-top: 20px;
   }
  
-}
-
-@media screen and (min-width: 689px) and (max-width: 992px) {
-  
 }
