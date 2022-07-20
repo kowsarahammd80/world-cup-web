@@ -3,7 +3,6 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 main{
-  margin-top: 20px;
   width: 1321px;
   margin: 0 auto;
 }
@@ -54,6 +53,7 @@ main{
   
 }
 .blog-items{
+  width: 310px;
   box-shadow: 1px 1px 1px gray;
   margin: 7px;
   border-radius: 10px;
@@ -101,6 +101,7 @@ main{
   margin-left: 30px;
   display: flex;
   justify-content: center;
+  border: 1px solid gainsboro;
   padding: 5px 40px;
   border-radius: 10px;
 
@@ -204,6 +205,7 @@ hr{
 
 
 @media only screen and (max-width: 688px) {
+
   .top-banner{
     width: 100%;
     height: 100%;
@@ -215,14 +217,63 @@ hr{
     flex-direction: column;
   }
   .side-button{
-   background-color: black;
+   background-color: white;
    width: 100%;
 
   } 
   .side-button p{
-    width: 300px;
+    width: 400px;
+    height: 60px;
     margin-left: 35%;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  .blogs-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+ .blogs-container{
+    flex-direction: column;
+    justify-content: center;
+ }
+   .blog-items{
+  margin-top: 100px;
+  margin-left: 40%;
+ }  
+
+ footer{
+  width: 340vw;
+ }
+ .footer-items{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ }
+ .footer-items{
+  justify-items: center;
+  justify-content: center;
+ }
+ 
+}
+
+@media only screen and (min-width: 689px) and (max-width: 992px){
+  .extra-container{
+    flex-direction: column;
+  }
+  .side-button{
+    width: 100%;
+    background-color: white;
+  }
+  .button-item{
+   display: flex;
+   justify-content: center;
+  }
+  .blogs-container{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  footer{
+    width: 175vw;
   }
  
 }
