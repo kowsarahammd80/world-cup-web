@@ -275,6 +275,9 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+  #block{
+    display: block;
+  }
   footer{
     width: 175vw;
   }
